@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- 
+        - Meta
+     -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+        - favicon
+    -->
+    <link rel="shortcut icon" href="assets/images/icon-logo.ico" type="image/svg+xml">
+
+    <!-- 
+        - Links custom css 
+    -->
+    <link rel="stylesheet" href="./assents/css/Global style.css">
+    <link rel="stylesheet" href="./assents/css/slide.css">
+    <link rel="stylesheet" href="./assents/css/root.css">
+    <link rel="stylesheet" href="./assents/css/cookies.css">
+
+    <!-- 
+        - Links custom js 
+    -->
+    <script src="./assents/js/script.js" defer></script>
+
+    <!-- 
+        - Links Font 
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+        - Titulo - Icon 
+    -->
+    <title>For All Dreams</title>
+    <link rel="icon" type="image/x-icon" href="./assents/Imagens/Outros/llogo.ico">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+        - backgrond-caixa-1 
+    -->
+
+    <div class="backgrond-caixa-1" id="home">
+        <header>
+            <div class="menu-content">
+                <a href="For All Dreams.html"><img src="./assents/Imagens/Outros/logo.png" class="logoimg"></a>
+                <nav class="header-menu">
+                    <ul class="list-itens">
+                        <li><a href="For All Dreams.html">home</a></li>
+                        <li><a href="#catalogo">Catálogo</a></li>
+                        <li><a href="#garagem">Garagem</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a
+                                href="https://wa.me/5514123451234?text=Quero%20comprar%20meu%20carro%20dos%20sonhos!!!!!!!">contato</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/for_all_dreams/"><img
+                                    src="./assents/Imagens/Icon's8/icons8-instagram-144.png" class="icon-whatsapp"></a>
+                        </li>
+                        <li><a
+                                href="https://wa.me/5514123451234?text=Quero%20comprar%20meu%20carro%20dos%20sonhos!!!!!!!"><img
+                                    src="./assents/Imagens/Icon's8/icons8-whatsapp-96.png" class="icon-whatsapp"></a></li>
+                        <li>
+                            <div class="user"><img src="./assents/Imagens/Icon's8/icons8-usuário-homem-com-círculo-64.png"></div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-content">
+                <h1 class="primary-text">Isso é:</h1>
+                <h2 class="second-text">FOR ALL <span>DREAMS</span> </h2>
+                <div class="btns">
+                    <a href="#garagem"><button class="btn-garagem">Garagem</button></a>
+                    <a href="https://wa.me/5514123451234?text=Quero%20comprar%20meu%20carro%20dos%20sonhos!!!!!!!"><button
+                            class="btn-contato">contato</button></a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 
+        - #PROPAGANDA-1
+     -->
+
+    <section class="propaganda1"></section>
+
+    <div class="banner" id="catalogo">
+        <h1 class="primary-text-catalogo">Mais Pop<span>ulares</span></h1>
+        <div class="container">
+            <figure>
+                <img src="./assents/Imagens/Ford Mustang Shelby GT500 2023/Ford Mustang Shelby GT500 2023 frente.jpg" alt="">
+            </figure>
+            <div class="slide">
+                <img src="./assents/Imagens/Ford Mustang Shelby GT500 2023/Ford Mustang Shelby GT500 2023 frente.jpg" alt="">
+                <img src="./assents/Imagens/Outros/AudiR8Spyder.jpg" alt="">
+                <img src="./assents/Imagens/Ferrari F8 Spider/ferrari (5).png" alt="">
+                <img src="./assents/Imagens/Toyota Supra/supra2.jpg" alt="">
+                <img src="./assents/Imagens/Bentley Batur 2024/BentleyBatur2024lado.jpg" alt="">
+                <img src="./assents/Imagens/Outros/f-150 shelby.jpg" alt="">
+            </div>
+        </div>
+
+        <script>
+            const figureImg = document.querySelector('figure img');
+            const Imgs = document.querySelectorAll('.slide img');
+
+            Imgs.forEach(function (img) {
+                // console.log(img);
+                img.addEventListener('click', function (e) {
+                    // console.log(e.target.src);
+                    // console.log(figureImg.src);
+                    figureImg.src = e.target.src;
+                })
+            })
+        </script>
+    </div>
+
+    <!-- 
+        - backgrond-carrosel-1 
+    -->
+
+    <div class="garagem" id="garagem">
+        <hr class="hr-destaques">
+        <h1 class="primary-text-destaques">Garagem For All <span class="span-destaques">Dreams</span></h1>
+        <h1 class="second-text-destaques">Conheça mais da nossa garagem</h1>
+        <section class="slider">
+            <div class="slider-content">
+
+                <a href="Porshe Cayenne Hybrid 2020.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Porche Cayenne E-Hybrid/porscheCayenneFront.jpg" alt="slide 1">
+                        <h1 class="descricao-destaques-nome">Porsche Cayenne E-Hybrid</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 700.000,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2020</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Ferrari F8 Spider.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Ferrari F8 Spider/Ferrarispiderf8esquerda.png" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Ferrari F8 Spider</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 4.000.000,00</h1>
+                        <div class="descricao-destaques-especificacoes">
+                            <img src="./assents/Imagens/Icon's8/icons-certo.png" class="descricao-destaques-especificacoes-icon">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png"
+                                class="descricao-destaques-especificacoes-icon">
+                            <h1>2022</h1><img src="./assents/Imagens/Icon's8/icons-carro.png"
+                                class="descricao-destaques-especificacoes-icon">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="supra.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Toyota Supra/supra2.jpg" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Toyota Supra</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 1.199.990,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2023</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Tesla Model 3 2022.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/TeslaModel3/TESLA MODEL 3 PERFORMANCE 2022.jpg" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Tesla Model 3 Performace</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 650.174,37</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2022</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+            </div>
+            </a>
+
+            <div class="slider-content-2">
+                <a href="dodge.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/DodgeChallenger2023/dodge 4.jpg" alt="slide 1">
+                        <h1 class="descricao-destaques-nome">DODGE CHALLENGER 2023</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 1.420.900,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2020</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Ram 1500 RTX 2023.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Ram1500TRX/ram1500trx2023esquerda.jpg" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Ram 1500 TRX</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 1.059.000,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2023</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Toyota Land Cruiser 2023.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Toyota Land Cruiser/TOYOTALANDCRUISER2023esquerda2.jpg" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Toyota Land Cruiser</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 998.990,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2023</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="rolls.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/RollsRoyceGhost/rolls1.jpg" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Rolls Royce Ghost</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 4.290.000,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2022</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="slider-content-2">
+                <a href="BENTLEY BATUR 2024.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Bentley Batur 2024/BentleyBatur2024lado.jpg" alt="slide 1">
+                        <h1 class="descricao-destaques-nome">Bentley Batur 2024</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 13.520.900,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2024</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Ford Mustang Shelby GT500 2023.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Ford Mustang Shelby GT500 2023/Ford Mustang Shelby GT500 2023 frente.jpg" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Ford Mustang Shelby GT500 2023</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 310.361,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2023</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="ACURA NSX TYPE S 2023.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Acura NSX Type S 2023/ACURANSXTYPES2023frente.jpg" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Acura NSX Type S 2023</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 2.410.000,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2023</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Chevrolet corvette z06 2022.html">
+                    <div class="main-descricao-destaques">
+                        <img class="img-desktop" src="./assents/Imagens/Chevrolet corvettez 2022/chevroletcorvettez062022direita.png" alt="slide 3">
+                        <h1 class="descricao-destaques-nome">Chevrolet corvette Z06</h1>
+                        <hr class="hr-destaques-2">
+                        <hr class="hr-destaques-3">
+                        <h1 class="descricao-destaques-valor">R$: 2.590.000,00</h1>
+                        <div class="descricao-destaques-especificacoes"><img src="./assents/Imagens/Icon's8/icons-certo.png">
+                            <h1>Pronta Entrega</h1><img src="./assents/Imagens/Icon's8/icons-calendário.png">
+                            <h1>2023</h1><img src="./assents/Imagens/Icon's8/icons-carro.png">
+                            <h1>Novo</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- 
+        - #SOBRE
+     -->
+
+    <hr class="hr-sobre">
+    <div class="main-content-sobre" id="sobre">
+
+        <h1 class="primary-text-sobre">Sobre For All <span class="span-sobre">Dreams</span></h1>
+        <h1 class="second-text-sobre">Um pouco mais da nossa empresa</h1>
+
+        <div class="container-sobre">
+
+            <div class="img-sobre">
+                <img src="./assents/Imagens/Outros/BMW-Série-3-862x485.jpg">
+
+            </div>
+
+            <div class="texto-sobre">
+
+                <h1>
+                    A empresa "For All Dreams" é uma concessionária especializada na venda de carros de luxo. Seu foco
+                    principal é proporcionar aos clientes uma experiência excepcional ao adquirir veículos de alta
+                    qualidade e prestígio. Com uma ampla gama de carros de luxo em seu portfólio, a empresa atende a uma
+                    clientela que valoriza a exclusividade, o desempenho superior e o design sofisticado. <br><br>
+
+
+
+                    O compromisso da "For All Dreams" com a qualidade é evidente em seu processo de inspeção rigoroso,
+                    garantindo que cada veículo esteja em perfeitas condições antes de ser disponibilizado para venda.
+                    Além disso, a empresa preza pela transparência nos negócios, fornecendo informações detalhadas sobre
+                    cada veículo, incluindo histórico de manutenção e registro, para que os clientes possam tomar
+                    decisões informadas. <br><br>
+
+
+
+                    A empresa também se destaca pelo atendimento ao cliente excepcional, contando com uma equipe de
+                    vendas altamente treinada e dedicada a auxiliar os clientes na escolha do carro de luxo dos seus
+                    sonhos. Além disso, "For All Dreams" oferece opções de personalização para atender às preferências
+                    individuais de seus clientes, tornando realidade os sonhos automobilísticos mais específicos.
+                    <br><br>
+
+
+
+
+                    No mercado altamente competitivo de carros de luxo, "For All Dreams" construiu uma reputação sólida
+                    baseada na satisfação dos clientes e na qualidade de seus produtos. A empresa é conhecida por seu
+                    compromisso com a excelência e seu papel como um destino confiável para quem procura carros de luxo
+                    de alto padrão.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+        - #NEWSLETTER
+      -->
+
+  <main>
+    <article>  
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <div class="card-content">
+              <h2 class="h2 section-title">Receba Informacões de descontos</h2>
+
+              <p class="section-text">
+                
+              </p>
+            </div>
+
+            <form action="" class="card-form">
+              <input type="email" name="email_address" placeholder="Seu endereço de email" required class="email-field">
+
+              <button type="submit" class="newsletter-btn" aria-label="subscribe">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container-footer">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo-footer">For All Dreams - Brasil</a>
+
+          <ul class="ul-footer-list-items">
+
+            <li class="footer-list-item">
+              <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+                São Paulo, BR, 2023
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+                
+              <a href="tel:+5514999999999" class="footer-link">+55 (14) 99999-9999</a>
+            </li>
+
+            <li>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li class="li-footer">
+            <p class="footer-list-title"><b>Ajuda e Informações</b></p>
+          </li>
+
+          <li class="li-footer">
+            <a href="#" class="footer-link">Ajude e Contate-nos</a>
+          </li>
+
+          <li class="li-footer">
+            <a href="#" class="footer-link">Termos e Condições</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li class="li-footer">
+            <p class="footer-list-title"><b>Sobre nós</b></p>
+          </li>
+
+          <li class="li-footer">
+            <a href="#sobre" class="footer-link">Sobre nós</a>
+          </li>
+
+          <li class="li-footer">
+            <a href="#sobre" class="footer-link">O que nós fazemos</a>
+          </li>
+
+          <li class="li-footer">
+            <a href="https://wa.me/5514123451234?text=Quero%20comprar%20meu%20carro%20dos%20sonhos!!!!!!!" class="footer-link">Contate-nos</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title"><b>Fale conosco</b></p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" placeholder="Seu endereço de email" required class="email-field">
+
+            <button type="submit" class="footer-form-btn">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <div class="wrapper">
+
+            <a href="#" class="footer-link">Termos e Condições</a>
+            <a href="#" class="footer-link">Politicas</a>
+            <a href="#" class="footer-link">Mapa</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 All Rights Reserved by <a href="#" class="copyright-link">For All Dreams - Brasil</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+ 
+
+
+
+
+
+    <!-- 
+        - #COOKIES 
+    -->
+
+    <div class="cookies-msg" id="cookies-msg">
+        <h1 class="cookies-marca">For All Dreams</h1>
+        <div class="cookies-txt">
+            <p>Este site usa cookies e tecnologias afins, que são pequenos arquivos ou pedaços de texto baixados
+                para um
+                aparelho quando o visitante acessa um website ou aplicativo. Ao utilizar nosso site você está de
+                acordo
+                com a utilização dos cookies para te proporcionar uma melhor experiência.<br>
+                <a href="#lincenca" class="">Ver termos de licença</a>
+            </p>
+
+            <div class="cookies-btn">
+                <button onclick="aceito()">Aceito</button>
+            </div>
+        </div>
+    </div> <!--cookies-msg-->
+
+    <script src="./assents/js/cookies.js"></script>
+
+      <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+
+
+
